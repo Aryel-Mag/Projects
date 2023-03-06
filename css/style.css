@@ -1,0 +1,60 @@
+@font-face {
+   font-family: 'optimusprincepsregular';
+   src: url('./optimusprinceps-webfont.woff2') format('woff2'),
+        url('./optimusprinceps-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+body{
+   font-family: optimusprincepsregular;
+   background-image: url(../resources/dark_souls_3_guide_generic_2.jpg);
+   background-attachment: fixed; 
+   background-size: cover; 
+   background-position:top ; 
+   background-repeat: no-repeat; 
+}
+
+
+
+/* dimmension de cartes différentes pour qu'elle puisse correspondre à celles
+   wireframe avec le même fond
+*/
+.card{
+   background-image: url(../resources/bgfons.com\ -\ rust_texture3929.jpg);
+   background-attachment: fixed; 
+   background-size: cover; 
+   background-position:top ; 
+   background-repeat: no-repeat;
+}
+
+/* 
+   classes de customisaton qui ne sont pas fournies par bootstrap
+   marges plus précisent et text plus grand
+*/
+
+/* For mobile phones: no margins */
+
+ 
+@media only screen and (min-width: 640px) {
+   /* For desktop: */
+   .m-r{
+      margin-right: 30px;
+   }
+   .m-r-small{
+      margin-right: 15px;
+   }
+   
+   .m-l{
+      margin-left: 30px;
+   }
+   .m-l-small{
+      margin-left: 15px;
+   } 
+   
+   .text-plus{
+      font-size: 30px;
+   }
+
+}
